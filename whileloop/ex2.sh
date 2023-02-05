@@ -6,8 +6,8 @@ LINE_NUM=1
 
 while read LINE; do
 	echo "${LINE_NUM}: ${LINE}"
-	((LINE_NUM++))
 	if [ $LINE_NUM -eq $NUM_LINES ]; then
 		break
 	fi
+	((LINE_NUM++))
 done < /etc/passwd
