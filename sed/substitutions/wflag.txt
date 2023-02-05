@@ -1,0 +1,1 @@
+sed can write to a file with "w" flag. And also flags can be combited!
